@@ -1,0 +1,33 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.card
+{
+    margin:20px 15px;
+    font-size: 24px;
+}
+
+@media (min-width: 952px)
+{
+    .navbar
+    {
+        position: fixed;
+        width:100%;
+        height: 80px;
+        bottom: 0px;
+        right: 0px
+    }
+}
+
+#middle
+{
+    margin:40px 15px;
+    border:2px solid black;
+    padding: 10px;
+}
+
+
+
+
